@@ -33,12 +33,18 @@
 
         <div>
           <ul class="flex_around">
-            <li>
+            <li class="center_flex">
+              <svg class="icons_mail">
+                <use href="/resources/icons/symbol-defs-hdr.svg#icon-mail-envelope-closed">
+              </svg>
               <a href="mailto:info@devstudio.com" class="second_header_a"
                 >info@devstudio.com</a
               >
             </li>
             <li>
+              <svg class="icons_smartphone">
+                <use href="/resources/icons/symbol-defs-hdr.svg#icon-smartphone">
+              </svg>
               <a href="tel:+525555296000" class="second_header_a"
                 >+52 55 5529 6000</a
               >
@@ -59,20 +65,25 @@
       <!-- Details -->
       <section class="padd-shrink">
         <ul class="container at_details">
-          <li>
-            <svg>
-              <use href="/resources/icons/symbol-acerca.svg#icon-antena">
-            </svg>
+          <li class="li_details_basis">
+            <div class="icon_details_cont">
+                <svg class="icon_details">
+                  <use href="/resources/icons/symbol-acerca.svg#icon-antena">
+                </svg>
+            </div>
+            
             <h3>Atencion a los Detalles</h3>
             <p>
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
-          <li>
-            <svg>
-              <use href="/resources/icons/symbol-acerca.svg#icon-reloj">
-            </svg>
+          <li class="li_details_basis">
+            <div class="icon_details_cont marg-0">
+              <svg class="icon_details">
+                <use href="/resources/icons/symbol-acerca.svg#icon-reloj">
+              </svg>
+            </div>
             <h3>Puntualidad</h3>
             <p>
               Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -80,20 +91,24 @@
               los plazos acordados.
             </p>
           </li>
-          <li>
-            <svg>
-              <use href="/resources/icons/symbol-acerca.svg#icon-pc">
-            </svg>
+          <li class="li_details_basis">
+            <div class="icon_details_cont">
+              <svg class="icon_details">
+                <use href="/resources/icons/symbol-acerca.svg#icon-pc">
+              </svg>
+            </div>
             <h3>Planificacion</h3>
             <p>
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
-          <li>
-            <svg>
-              <use href="/resources/icons/symbol-acerca.svg#icon-astronauta">
-            </svg>
+          <li class="li_details_basis">
+            <div class="icon_details_cont">
+              <svg class="icon_details">
+                <use href="/resources/icons/symbol-acerca.svg#icon-astronauta">
+              </svg>
+            </div>
             <h3>Tecnologia Moderna</h3>
             <p>
               Usamos herramientas innovadoras para resolver las tareas
@@ -279,34 +294,100 @@
           </ul>
         </div>
       </section>
+
+      <!-- Clientes Regulares -->
+      <section class="our_team_flex clients_sect">
+        <div class="container our_team_flex">
+          <h2>Clientes Regulares</h2>
+          <ul class="client_flex container">
+            <li class="icons_clients_li our_team_flex">
+              <svg class="icons_clients">
+                <use href="./resources/icons/symbol-defs copy.svg#icon-logo1">
+              </svg>
+            </li>
+            <li class="icons_clients_li our_team_flex">
+              <svg class="icons_clients">
+                <use href="./resources/icons/symbol-defs copy.svg#icon-logo2">
+              </svg>
+            </li>
+            <li class="icons_clients_li our_team_flex">
+              <svg class="icons_clients">
+                <use href="./resources/icons/symbol-defs copy.svg#icon-logo3">
+              </svg>
+            </li>
+            <li class="icons_clients_li our_team_flex">
+              <svg class="icons_clients">
+                <use href="./resources/icons/symbol-defs copy.svg#icon-logo4">
+              </svg>
+            </li>
+            <li class="icons_clients_li our_team_flex">
+              <svg class="icons_clients">
+                <use href="./resources/icons/symbol-defs copy.svg#icon-logo5">
+              </svg>
+            </li>
+            <li class="icons_clients_li our_team_flex">
+              <svg class="icons_clients">
+                <use href="./resources/icons/symbol-defs copy.svg#icon-logo6">
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer footer_flex">
-      <div class="container">
-        <a href="#" class="icon">WebStudio</a>
-        <address>
-          <ul>
-            <li>
-              <a
-                href="https://goo.gl/maps/zPtdeVyMeNibZffx5"
-                target="_blank"
-                class="footer_a"
-              >
-                Calz. Ticomán 500, Ciudad de <br />
-                México, CDMX, México
-              </a>
-            </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="footer_b"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+525555296000" class="footer_b">+52 55 5529 6000</a>
-            </li>
-          </ul>
-        </address>
+    <footer class="footer our_team_flex">
+      <div class="footer_flex container">
+        <div>
+          <a href="#" class="icon">WebStudio</a>
+          <address class="">
+            <ul>
+              <li>
+                <a
+                  href="https://goo.gl/maps/zPtdeVyMeNibZffx5"
+                  target="_blank"
+                  class="footer_a"
+                >
+                  Calz. Ticomán 500, Ciudad de <br />
+                  México, CDMX, México
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="footer_b"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+525555296000" class="footer_b">+52 55 5529 6000</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <h2 class="h2_footer">ENCUENTRENOS EN</h2>
+        <ul class="iconslif">
+          <li class="iconsli icons_footer_li">
+            <svg class="icons_footer">
+              <use href="/resources/icons/symbol-defs.svg#icon-facebook">
+            </svg>
+          </li>
+          <li class="iconsli icons_footer_li">
+            <svg class="icons_footer">
+              <use href="/resources/icons/symbol-defs.svg#icon-instagram">
+            </svg>
+          </li>
+          <li class="iconsli icons_footer_li">
+            <svg class="icons_footer">
+              <use href="/resources/icons/symbol-defs.svg#icon-twitter">
+            </svg>
+          </li>
+          <li class="iconsli icons_footer_li">
+            <svg class="icons_footer">
+              <use href="/resources/icons/symbol-defs.svg#icon-linkedin2">
+            </svg>
+          </li>
+        </ul>
+        </div>
       </div>
     </footer>
   </body>
