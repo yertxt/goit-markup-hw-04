@@ -90,6 +90,14 @@ p {
   color: var(--brand-color-blue);
 }
 
+.header_list:hover{
+  fill: var(--brand-color-blue);
+}
+
+.header_list:focus{
+  fill: var(--brand-color-blue);
+}
+
 .second_header_a:focus {
   color: var(--brand-color-blue);
 }
