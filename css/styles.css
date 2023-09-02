@@ -26,6 +26,10 @@ button {
   cursor: pointer;
 }
 
+svg{
+  fill: currentColor;
+}
+
 p {
   font-family: 'Roboto';
   color: var(--brand-color-grey);
@@ -54,9 +58,9 @@ p {
 }
 .flex_around {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  column-gap: 16px;
+  column-gap: 30px;
 }
 
 /* Header Styles */
@@ -75,6 +79,7 @@ p {
 
 .first_header_a:focus {
   color: var(--brand-color-blue);
+  outline: none;
 }
 
 .second_header_a {
@@ -96,10 +101,12 @@ p {
 
 .header_hover:focus > .second_header_a {
   color: var(--brand-color-blue);
+  outline: none;
 }
 
 .header_hover:focus > .icons_hover {
   fill: var(--brand-color-blue);
+  outline: none;
 }
 
 .icon {
@@ -132,6 +139,18 @@ p {
   fill: #fff;
 }
 
+.iconsli:focus {
+  background-color: var(--brand-color-blue);
+  border-radius: 100%;
+  outline: none;
+}
+
+.iconsli:focus > .icons {
+  fill: #fff;
+  outline: none;
+}
+
+
 .iconsli {
   width: 44px;
   height: 44px;
@@ -152,8 +171,8 @@ p {
 }
 
 .icons_smartphone {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
 }
 
 .icons_mail {
@@ -163,7 +182,7 @@ p {
 
 /* Hero Styles */
 .hero {
-  background-image: url(/resources/img/Imagenlanding.png);
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40) ),url(../resources/img/Imagenlanding.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -281,7 +300,7 @@ p {
 .icons_clients {
   width: 106px;
   height: 52px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .icons_clients_li {
@@ -337,6 +356,7 @@ p {
 }
 .footer_b:focus {
   color: var(--brand-color-blue);
+  outline: none;
 }
 
 .port_ul_flex {
@@ -373,6 +393,9 @@ p {
 .port-button:focus {
   background: var(--brand-color-blue);
   color: #ffffff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
 }
 
 .boder_bottom_li > li {
@@ -402,5 +425,5 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
