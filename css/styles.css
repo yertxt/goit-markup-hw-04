@@ -100,11 +100,6 @@ p {
   outline: none;
 }
 
-.header_hover:focus {
-  fill: var(--brand-color-blue);
-  outline: none;
-}
-
 .current {
   color: var(--brand-color-blue);
 }
