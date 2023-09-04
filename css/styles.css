@@ -290,11 +290,6 @@ p {
 
 /* Clients */
 
-.clients_sect {
-  padding-top: 40px;
-  padding-bottom: 150px;
-}
-
 .client_flex {
   display: flex;
   justify-content: center;
@@ -412,8 +407,13 @@ p {
 .padd_bottom {
   padding-bottom: 30px;
 }
+
 .padd-shrink {
   padding: 94px 0px;
+}
+
+.padd-minus {
+  padding-bottom: 0px;
 }
 
 .padding_text_card {
@@ -421,10 +421,6 @@ p {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
-}
-
-.marg-shrink {
-  margin: 94px 0px;
 }
 
 .border-bottom {
